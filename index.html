@@ -367,6 +367,43 @@
                         <use href="./images/icons.svg#icon-close-modal"></use>
                     </svg>
                 </button>
+                <form class="feedback-form" action="./index.html">
+                    <fieldset class="feedback-filds">
+                        <p class="modal-header">Leave your contacts and we will call you back</p>
+                        <label for="id-name" class="callback-label">
+                            <span class="text-label first-label">Name</span>
+                            <input type="text" id="id-name" name="name" class="callback-input-text"></input>
+                            <svg class="callback-form-icon" width="18">
+                                <use href="./images/icons.svg#icon-person"></use>
+                            </svg>
+                        </label>
+                        <label for="id-tel" class="callback-label">
+                            <span class="text-label">Phone</span>
+                            <input type="tel" id="id-tel" name="phone-number" class="callback-input-text"></input>
+                            <svg class="callback-form-icon">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                    </label>
+                    <label for="id-email" class="callback-label">
+                        <span class="text-label">Email</span>
+                        <input type="email" id="id-email" name="email" class="callback-input-text"></input>
+                            <svg class="callback-form-icon" width="18">
+                                <use href="./images/icons.svg#icon-mail"></use>
+                            </svg>
+                    </label>
+                    <label for="id-textarea" class="callback-label textarea-label">
+                        <span class="text-label">Comment</span>
+                        <textarea class="callback-textarea" name="comment" id="id-textarea" placeholder="Text input"></textarea>
+                    </label>
+                    </fieldset>
+                    <span class="privacy">
+                        <input type="checkbox" name="privacy" id="callback-privacy"></input>
+                        <label for="callback-privacy" class="label-callback-privacy">I accept the terms and conditions of the
+                            <a href="#" class="callback-privacy-link">Privacy Policy</a>
+                        </label>
+                    </span>
+                    <button type="submit" class="callback-submit">Send</button>
+                </form>
             </div>
         </div>
         <script src="./js/modal.js"></script>
