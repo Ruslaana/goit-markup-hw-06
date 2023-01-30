@@ -347,7 +347,7 @@
                 <div class="subscribe-form-wrapper">
                     <p class="header-footer"> Subscribe</p>
                     <form action="`javascript:void(0);`" class="subscribe-form">
-                        <input type="text" name="subscribe-email" class="subscribe-email" placeholder="E-mail">
+                        <input type="email" name="email" class="subscribe-email" placeholder="E-mail">
                         <button type="submit" class="subscribe-submit">
                             <span class="subscribe">Subscribe</span>
                             <svg class="paper-plane" width="24">
@@ -370,26 +370,35 @@
                 <form class="feedback-form" action="./index.html">
                     <fieldset class="feedback-filds">
                         <p class="modal-header">Leave your contacts and we will call you back</p>
-                        <label for="id-name" class="callback-label">
-                            <span class="text-label first-label">Name</span>
+                        <label for="id-name" class="text-label">Name
+                            <div class="callback-label">
                             <input type="text" id="id-name" name="user-name" class="callback-input-text"></input>
+                            <span class="icon-label">
                             <svg class="callback-form-icon" width="18">
                                 <use href="./images/icons.svg#icon-person"></use>
                             </svg>
+                        </span>
+                    </div>
                         </label>
-                        <label for="id-tel" class="callback-label">
-                            <span class="text-label">Phone</span>
+                        <label for="id-tel" class="text-label">Phone
+                            <div class="callback-label">
                             <input type="tel" id="id-tel" name="phone-number" class="callback-input-text" required></input>
+                            <span class="icon-label">
                             <svg class="callback-form-icon" width="18">
                                 <use href="./images/icons.svg#icon-phone"></use>
                             </svg>
+                        </span>
+                    </div>
                     </label>
-                    <label for="id-email" class="callback-label">
-                        <span class="text-label">Email</span>
+                    <label for="id-email" class="text-label">Email
+                        <div class="callback-label">
                         <input type="email" id="id-email" name="user-email" class="callback-input-text"></input>
+                        <span class="icon-label">
                             <svg class="callback-form-icon" width="18">
                                 <use href="./images/icons.svg#icon-email"></use>
                             </svg>
+                        </span>
+                    </div>
                     </label>
                     <label for="id-textarea" class="callback-label textarea-label">
                         <span class="text-label">Comment</span>
