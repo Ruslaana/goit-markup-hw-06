@@ -841,7 +841,7 @@ border: 1px solid var(--footer-text-color);
 }
 
 .label-callback-privacy{
-    font-style: 12px;
+    font-size: 12px;
     letter-spacing: 0.04em;
     display: block;
 }
