@@ -206,11 +206,7 @@ body {
 
 /* Секція 1 */
 
-.footer-container{
-    background-color: var(--title-text-color);
-    display: flex;
-    gap: 120px;
-}
+
 
 .hero {
     text-align: center;
@@ -473,6 +469,12 @@ border: 1px solid var(--footer-text-color);
 
 /* Футер */
 
+.footer-container{
+    background-color: var(--title-text-color);
+    display: flex;
+    /* gap: 120px; */
+}
+
 .header-footer{
     color: var(--white-background-color); 
     font-weight: 500; 
@@ -510,7 +512,12 @@ border: 1px solid var(--footer-text-color);
 
 .bottom-left{
     width: 264px;
+    margin-right: 120px;
 }
+
+/* .footer-icon{
+    gap: 80px;
+} */
 
 .footer-soc-link{
     width: 40px;
